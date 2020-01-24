@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Titre1</h1>
-    <h2>Titre2</h2>
+    <h1>CABINET MÉDICAL DE RHUMATOLOGIE</h1>
   </div>
 </template>
 
