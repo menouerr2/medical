@@ -1,18 +1,15 @@
 <template>
   <div>
-    <h1>Titre1</h1>
-    <h2>Titre2</h2>
+    <h1>Test</h1>
+    <p>Ceci est un paragraphe</p>
   </div>
 </template>
 
-
-
 <script>
 export default {
-  name: "FistComponent"
+  name: "test"
 };
 </script>
 
-
-<style lang="scss">
+<style>
 </style>
