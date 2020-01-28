@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Accueil.vue";
 import Médecin from "../views/Médecin.vue";
 import Contact from "../views/contact.vue";
+import RendezVous from "../views/RendezVous.vue";
 
 Vue.use(VueRouter);
 
@@ -25,6 +26,11 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: Contact
+  },
+  {
+    path: "/RendezVous",
+    name: "Rendezvous",
+    component: RendezVous
   }
 ];
 
