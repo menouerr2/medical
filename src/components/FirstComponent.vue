@@ -13,6 +13,12 @@ export default {
 
 <style>
 
+img{
+
+  width: 45%;
+  
+  
+}
 
 
 
