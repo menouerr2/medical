@@ -1,6 +1,7 @@
 <template>
-  <div class="Accueuil">
+  <div class="Accueil">
     <FirstComponent></FirstComponent>
+    
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 import FirstComponent from "../components/FirstComponent";
 
 export default {
-  name: "Accueuil",
+  name: "Accueil",
   components: {
     FirstComponent
   }

@@ -1,17 +1,18 @@
 <template>
   <div>
     <h1>CABINET MÉDICAL DE RHUMATOLOGIE</h1>
+    <img src="../assets/accueil.jpg" alt="Image" />
   </div>
 </template>
 
-
-
 <script>
 export default {
-  name: "FistComponent"
+  name: "FirstComponent"
 };
 </script>
 
-
-<style lang="scss">
+<style>
+img {
+  margin-bottom: 50px;
+}
 </style>
