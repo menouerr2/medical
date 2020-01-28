@@ -12,7 +12,8 @@ export default {
 </script>
 
 <style>
-img {
-  margin-bottom: 50px;
-}
+
+
+
+
 </style>

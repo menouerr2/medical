@@ -1,6 +1,10 @@
 <template>
   <div class="Accueil">
+    
     <FirstComponent></FirstComponent>
+
+
+    <footer class="pied">  <h4>ADRESSE:</h4> <p> 164  RUE DU MOLINEL <br> 75000 PARIS <br> 01-50-50-50-50</p></footer>
     
   </div>
 </template>
@@ -17,3 +21,16 @@ export default {
   }
 };
 </script>
+
+<style>
+
+footer{
+    background-color:red;
+   
+    
+    
+  }
+
+
+
+</style>
