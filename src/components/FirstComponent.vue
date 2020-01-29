@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>CABINET MÉDICAL DE RHUMATOLOGIE</h1>
-    <img src="../assets/accueil.jpg" alt="Image" />
+
+    <article class="img1">
+      <img src="../assets/accueil.jpg" alt="Image" />
+    </article>
   </div>
 </template>
 
@@ -12,14 +15,15 @@ export default {
 </script>
 
 <style>
-
-img{
-
-  width: 45%;
-  
-  
+h1 {
+  background-color: blue;
+}
+div {
+  grid-column: span 6;
+  text-align: center;
 }
 
-
-
+img {
+  width: 45%;
+}
 </style>
