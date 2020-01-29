@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Accueil.vue";
 import Médecin from "../views/Médecin.vue";
 import Contact from "../views/contact.vue";
-import RendezVous from "../views/RendezVous.vue";
+import Horaire from "../views/Horaires.vue";
 
 Vue.use(VueRouter);
 
@@ -28,9 +28,9 @@ const routes = [
     component: Contact
   },
   {
-    path: "/RendezVous",
-    name: "Rendezvous",
-    component: RendezVous
+    path: "/Horaires",
+    name: "Horaires",
+    component: Horaire
   }
 ];
 
