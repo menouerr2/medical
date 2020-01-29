@@ -1,51 +1,22 @@
 <template>
   <div class="Accueil">
     <FirstComponent></FirstComponent>
-
-    <template>
-      <footer>
-        <v-footer dark padless>
-          <v-card class="flex" flat tile>
-            <v-card-title class="teal">
-              <strong class="subheading"
-                >Get connected with us on social networks!</strong
-              >
-
-              <v-spacer></v-spacer>
-
-              <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>
-                <v-icon size="24px">{{ icon }}</v-icon>
-              </v-btn>
-            </v-card-title>
-
-            <v-card-text class="py-2 white--text text-center">
-              {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-            </v-card-text>
-          </v-card>
-        </v-footer>
-      </footer>
-    </template>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
-import FirstComponent from "../components/FirstComponent";
-
+import FirstComponent from "../components/FirstComponent.vue";
+import Footer from "../components/Footer.vue";
 export default {
   name: "Accueil",
   components: {
-    FirstComponent
+    FirstComponent,
+    Footer
   }
 };
 </script>
 
-<style>
-footer {
-  grid-column: span 6;
-
-  height: 8rem;
-  background-color: brown;
-}
-</style>
+<style></style>

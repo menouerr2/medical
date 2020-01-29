@@ -62,15 +62,13 @@
         </tr>
       </table>
     </section>
-
-    <footer class="foot">
-      <p>Company Name | Privacy Policy | Terms of Service</p>
-    </footer>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  components: {}
+};
 </script>
 
 <style lang="css" scoped>
