@@ -1,4 +1,4 @@
-<<template>
+<template>
     <div>
         <h1>Urgence</h1>
 
@@ -6,11 +6,8 @@
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-
 </style>

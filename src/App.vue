@@ -4,7 +4,8 @@
       <router-link to="/">Accueil</router-link>|
       <router-link to="/Médecin">Médecin</router-link>|
       <router-link to="/contact">Contact</router-link>|
-      <router-link to="/Horaires">Horaires</router-link>
+      <router-link to="/Horaires">Horaires</router-link>|
+      <router-link to="/Urgence">Urgence</router-link>
     </div>
     <router-view />
   </div>

@@ -4,6 +4,7 @@ import Home from "../views/Accueil.vue";
 import Médecin from "../views/Médecin.vue";
 import Contact from "../views/contact.vue";
 import Horaire from "../views/Horaires.vue";
+import Urgence from "../views/Urgence.vue";
 
 Vue.use(VueRouter);
 
@@ -17,9 +18,6 @@ const routes = [
     path: "/Médecin",
     name: "Médecin",
     component: Médecin
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
   },
 
   {
@@ -31,6 +29,11 @@ const routes = [
     path: "/Horaires",
     name: "Horaires",
     component: Horaire
+  },
+  {
+    path: "/Urgence",
+    name: "Urgence",
+    component: Urgence
   }
 ];
 
