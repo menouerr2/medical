@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Horaires d'ouvertures :</h1>
-
+    
     <section>
       <table class="table-horaires">
         <tr>
@@ -62,12 +62,18 @@
         </tr>
       </table>
     </section>
+    <Footer></Footer>
+    
   </div>
 </template>
 
 <script>
+import Footer from "../components/Footer";
 export default {
-  components: {}
+  name: "Horaires",
+  components: {
+    Footer
+  }
 };
 </script>
 

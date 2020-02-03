@@ -1,6 +1,6 @@
 <template>
   <div class="Médecin">
-    <h1>This is an about page</h1>
+    <h1>Médecins</h1>
     <Footer></Footer>
   </div>
 </template>
