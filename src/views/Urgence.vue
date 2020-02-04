@@ -2,6 +2,10 @@
   <div>
     <body>
       <h1>Urgence</h1>
+    <article class="img2">
+      <img src="../assets/urgence.jpg" alt="Image" />
+    </article>
+
       <section>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. A excepturi
         totam, ullam optio magni molestias ad corporis soluta aliquam architecto
