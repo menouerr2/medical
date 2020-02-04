@@ -1,6 +1,7 @@
 <template>
   <div class="Médecin">
-    <h1>Médecins</h1>
+    <h1>Les rhumatologues</h1>
+    
     <article class="img2">
       <img src="../assets/anesthesia-4677401_640.jpg" alt="Docteur1" />
       <img src="../assets/doctor-1149149_640.jpg" alt="Docteur2"/>

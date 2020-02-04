@@ -3,19 +3,18 @@
     <test></test>
   <div class="container">  
   <form id="contact" action="" method="post">
-    <h3>Colorlib Contact Form</h3>
-    <h4>Contact us for custom quote</h4>
+    
     <fieldset>
       <input placeholder="Your name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input placeholder="Your Phone" type="phone" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+      <input placeholder="Your Symptoms (optional)" type="symptoms" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+      <input placeholder="Your Doctor " type="doctors" tabindex="4" required>
     </fieldset>
     <fieldset>
       <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
@@ -68,7 +67,7 @@ body {
 }
 
 #contact {
-  background: #f9f9f9;
+  background: #1ca08e;
   padding: 25px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -129,7 +128,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4caf50;
+  background: hsl(236, 90%, 33%);
   color: #fff;
   margin: 0 0 5px;
   padding: 10px;
@@ -137,7 +136,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #43a047;
+  background: hsl(214, 71%, 33%);
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;

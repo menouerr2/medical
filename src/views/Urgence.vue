@@ -3,14 +3,14 @@
     <body>
       <h1>Urgence</h1>
     <article class="img2">
-      <img src="../assets/urgence.jpg" alt="Image" />
+      <img src="../assets/ambulance-3834247_640.jpg" alt="Image" />
+     <br>
+<a class="btn" href="tel:+448444870487">0844-487-0-487</a>
+<br>
+<a class="btn" href="tel:+448444870487">Click-to-Call</a>
     </article>
 
-      <section>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A excepturi
-        totam, ullam optio magni molestias ad corporis soluta aliquam architecto
-        laboriosam. Aut, modi amet beatae eligendi iste sunt at totam!
-      </section>
+      
       <Footer></Footer>
     </body>
   </div>
@@ -26,4 +26,24 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.btn {
+  background: hsl(350, 84%, 52%);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 20px 20px;
+  text-decoration: none;
+  line-height: 300%;
+}
+
+.btn:hover {
+  background: hsl(355, 98%, 61%);
+  text-decoration: none;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+</style>
